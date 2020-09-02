@@ -1,2 +1,11 @@
+
 server:
   port: 7788
+
+spring:
+  application:
+    name: calendar-server
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/calendar
