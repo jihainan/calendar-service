@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /**
- * 排程控制器
+ * 日程控制器
  *
  * @author jihainan
  * @date 2020/09/02
