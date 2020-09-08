@@ -18,6 +18,11 @@ public class Schedule implements Serializable {
      * 标题
      */
     private String title;
+
+    /**
+     * 所属日历ID
+     */
+    private String calendarId;
     /**
      * 备注
      */
@@ -37,6 +42,14 @@ public class Schedule implements Serializable {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public String getCalendarId() {
+        return calendarId;
+    }
+
+    public void setCalendarId(String calendarId) {
+        this.calendarId = calendarId;
     }
 
     public String getRemarks() {
