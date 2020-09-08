@@ -8,4 +8,6 @@ package com.lark.calendar.config;
  * @date 2020/09/07
  */
 public class DatabaseConfig {
+    // TODO:
+    // 检查并更新数据库索引
 }
